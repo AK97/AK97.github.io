@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+h1 {font-family: 'Bungee Hairline', cursive !important;}
+h2,h3 {font-family: 'Oxygen', sans-serif !important;}
+h4 {font-family: 'Bungee Hairline', cursive !important;}
+body {font-family: 'Sumana', serif !important;}
+
+.page1 {
+	/*background-image:url(../images/bg_img.jpg)*/;
+	background-color:white;
+	background-size:cover;
+	z-index:-5;
+	height:100vh;
+}
+
+.page2 {
+	background-color:#FFFFFF;
+	z-index:-5;
+	height:100vh;
+}
+
+.homelogo {
+	width:50%;
+	min-width:350px;
+	margin-top:28vh;
+}
+
+.logo {
+	width:250px;
+	padding-top:15px;
+	float:right;
+}
+
+.subtitle {
+	color:black !important;
+	font-weight:bold;
+}
+
+.white-container {
+	background-color:white;
+	overflow:scroll;
+	top:20px;
+	position:relative;
+}
+
+.gray {
+	color:#6A6A6A;
+}
+
+.enter-btn {
+	cursor:pointer;
+}
+.enter-btn:hover {
+	color:#6A6A6A;
+	text-decoration:none;
+}
+
+.the_button {
+	width:250px;
+}
+
+.bottom {
+	bottom:0px;
+	position:fixed;
+	cursor:pointer;
+}
