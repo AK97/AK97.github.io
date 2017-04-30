@@ -1,12 +1,15 @@
 @charset "UTF-8";
 
-h1 {font-family: 'Bungee Hairline', cursive !important;}
-h2,h3 {font-family: 'Oxygen', sans-serif !important;}
-h4 {font-family: 'Bungee Hairline', cursive !important;}
-body {font-family: 'Sumana', serif !important;}
+h1,.h1 {font-family: 'Bungee Hairline', cursive !important;}
+h2,h3,h5.h2,.h3,.h5 {font-family: 'Oxygen', sans-serif !important;}
+h4,.h4 {font-family: 'Bungee Hairline', cursive !important;}
+body,.body {font-family: 'Sumana', serif !important;}
+.active {color:red;}
+.gray {color:#6A6A6A;}
+.subtitle {color:black !important;font-weight:bold;}
 
 .page1 {
-	/*background-image:url(../images/bg_img.jpg)*/;
+	/*background-image:url(../images/bg_img.jpg);*/
 	background-color:white;
 	background-size:cover;
 	z-index:-5;
@@ -31,32 +34,20 @@ body {font-family: 'Sumana', serif !important;}
 	float:right;
 }
 
-.subtitle {
-	color:black !important;
-	font-weight:bold;
-}
-
-.white-container {
+#pageContainer {
 	background-color:white;
-	overflow:scroll;
 	top:20px;
 	position:relative;
 }
 
-.gray {
-	color:#6A6A6A;
+.content {
+	overflow:scroll;
+	height:inherit;
 }
 
-.enter-btn {
-	cursor:pointer;
-}
-.enter-btn:hover {
-	color:#6A6A6A;
-	text-decoration:none;
-}
-
-.the_button {
-	width:250px;
+.sidebar {
+	overflow:scroll;
+	min-height:100%;
 }
 
 .bottom {
@@ -64,3 +55,5 @@ body {font-family: 'Sumana', serif !important;}
 	position:fixed;
 	cursor:pointer;
 }
+
+
