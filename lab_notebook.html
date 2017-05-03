@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MSBT 2017</title>
+<link href="css/msbt.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Bungee+Hairline|Oxygen|Sumana" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/msbt.js"></script>
+</head>
+
+<body onLoad="loadBody()">
+
+<div class="container-float page1">
+<div class="container" id="pageContainer">
+
+<div class="col-md-10 content">
+
+<embed id="pdf" src="1.pdf" width="100%" height="100%" type='application/pdf' />
+
+</div> <!--End col-->
+
+<div class="col-md-2">
+
+<script>
+function ln(a) {
+	$("#pdf").attr('src', a + '.pdf');
+}
+</script>
+
+<nav class="navbar navbar-default" id="sidebar">
+<ul class="nav nav-stacked h5">
+<li onClick="ln(1)"><a class="subtitle">May 1, 2017</a></li>
+<li onClick="ln(2)"><a class="subtitle">May 2, 2017</a></li>
+<li onClick="ln(3)"><a class="subtitle">May 3, 2017</a></li>
+</ul>
+</nav>
+
+</div> <!--End col-->
+
+
+<ul class="nav nav-tabs bottom" id="nav">
+</ul>
+
+</div> <!--End container-->
+
+</div> <!--End container-float-->
+
+</body>
+</html>
