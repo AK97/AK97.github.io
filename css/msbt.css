@@ -9,7 +9,7 @@ body,.body {font-family: 'Sumana', serif !important;}
 .subtitle {color:black !important;font-weight:bold;}
 
 .page1 {
-	/*background-image:url(../images/bg_img.jpg);*/
+	background-image:url(../images/bg_img.jpg);
 	background-color:white;
 	background-size:cover;
 	z-index:-5;
@@ -35,18 +35,14 @@ body,.body {font-family: 'Sumana', serif !important;}
 }
 
 #pageContainer {
-	background-color:white;
 	top:20px;
 	position:relative;
 }
 
 .content {
+	background-color:rgba(255,255,255,.80);
 	overflow:scroll;
 	height:inherit;
-}
-
-.sidebar {
-	overflow:scroll;
 }
 
 .bottom {
@@ -55,4 +51,7 @@ body,.body {font-family: 'Sumana', serif !important;}
 	cursor:pointer;
 }
 
-
+.person {
+	padding-top:40px;
+	width:100%;
+}

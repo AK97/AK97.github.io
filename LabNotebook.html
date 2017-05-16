@@ -8,12 +8,15 @@
 <link href="https://fonts.googleapis.com/css?family=Bungee+Hairline|Oxygen|Sumana" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="js/msbt.js"></script>
+<script src="js/jszip.js"></script>
+<script src="js/xlsx.js"></script>
 </head>
 
-<body onLoad="loadBody()">
+<body onLoad="loadBody(); loadEntries();">
 
-<div class="container-float page1">
+<div class="container-float page2">
 <div class="container" id="pageContainer">
 
 <div class="col-md-10 content">
@@ -23,30 +26,32 @@
 
 </div> <!--End col-->
 
-<div class="col-md-2">
 
-<script>
-function ln(a) {
-	//$("#pdf").attr('src', a + '.pdf');
-	var parent = $('#pdf').parent();
-	var newElement = "<embed src='" + a + ".pdf'" + " id='pdf' width='100%' height='100%' type='application/pdf'>";
-	$('#pdf').remove();
-	parent.append(newElement);
-}
-</script>
+<div class="col-md-2 h5">
 
-<nav class="navbar navbar-default" id="sidebar">
-<ul class="nav nav-stacked h5">
+<nav class="navbar navbar-default">
+<ul class="nav nav-stacked h5" id="sidebar">
 <li onClick="ln(1)"><a class="subtitle">May 1, 2017</a></li>
 <li onClick="ln(2)"><a class="subtitle">May 2, 2017</a></li>
 <li onClick="ln(3)"><a class="subtitle">May 3, 2017</a></li>
 </ul>
 </nav>
 
+<!--<img src="images/person.png" class="person" />-->
+
 </div> <!--End col-->
 
 
 <ul class="nav nav-tabs bottom" id="nav">
+<li onClick="go('index')"><a class="subtitle">thermolyze</a></li>
+<li onClick="go('project')"><a class="subtitle">project</a></li>
+<li onClick="go('')"><a class="subtitle">human practices</a></li>
+<li onClick="go('LabNotebook')"><a class="subtitle">lab notebook</a></li>
+<li onClick="go('')"><a class="subtitle">biobrick</a></li>
+<li onClick="go('')"><a class="subtitle">modelling</a></li>
+<li onClick="go('')"><a class="subtitle">awards</a></li>
+<li onClick="go('')"><a class="subtitle">the team</a></li>
+<li onClick="window.open('http://2017.igem.org')"><a class="subtitle">igem</a></li>
 </ul>
 
 </div> <!--End container-->
