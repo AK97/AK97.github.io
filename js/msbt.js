@@ -17,7 +17,7 @@ function loadBody() {
 $(window).resize(function() {
 	loadBody();
 });
-/*
+
 //FOR WHEN ALL LAB NOTEBOOK ENTRIES ARE COMPLETE, PARSED, & CONVERTED TO PDF//
 function loadEntries() {
 	var num_entries = 57
@@ -26,4 +26,3 @@ function loadEntries() {
 		$('#sidebar').append(elem);
 	}
 }
-*/
