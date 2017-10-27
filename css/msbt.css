@@ -60,3 +60,11 @@ body,.body {font-family: 'Sumana', serif !important; line-height:normal !importa
     background: linear-gradient(white, black); /* Standard syntax */
 
 }
+
+.teampic {
+	width:150px;
+}
+
+.teamtable td {
+	padding:10px
+}
