@@ -4,7 +4,7 @@ function go(page) {
 function ln(a) {
 	//$("#pdf").attr('src', a + '.pdf');
 	var parent = $('#pdf').parent();
-	var newElement = "<embed src='" + a + ".pdf'" + " id='pdf' width='100%' height='100%' type='application/pdf'>";
+	var newElement = "<embed src='files/" + a + ".pdf'" + " id='pdf' width='100%' height='100%' type='application/pdf'>";
 	$('#pdf').remove();
 	parent.append(newElement);
 }
