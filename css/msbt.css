@@ -1,9 +1,7 @@
 @charset "UTF-8";
 
-h1,.h1 {font-family: 'Bungee Hairline', cursive !important;}
-h2,h3,h5.h2,.h3,.h5 {font-family: 'Oxygen', sans-serif !important;}
-h4,.h4 {font-family: 'Bungee Hairline', cursive !important;}
-body,.body {font-family: 'Sumana', serif !important;}
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family: 'Oxygen', sans-serif !important;}
+body,.body {font-family: 'Sumana', serif !important; line-height:normal !important}
 .active {color:red;}
 .gray {color:#6A6A6A;}
 .subtitle {color:black !important;font-weight:bold;}
@@ -40,7 +38,6 @@ body,.body {font-family: 'Sumana', serif !important;}
 }
 
 .content {
-	background-color:rgba(255,255,255,.80);
 	overflow:scroll;
 	height:inherit;
 }
@@ -54,4 +51,12 @@ body,.body {font-family: 'Sumana', serif !important;}
 .person {
 	padding-top:40px;
 	width:100%;
+}
+
+.f2black {
+    background: -webkit-linear-gradient(white, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, black); /* Standard syntax */
+
 }
