@@ -10,7 +10,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="js/msbt.js"></script>
 <style>
-h2{color:cyan;}h4{color:red;}p{color:cyan;}
+h2{color:cyan;}h4{color:red;}p{color:cyan;}.img-thumbnail{background-color:transparent; border-color:transparent}
 </style>
 </head>
 
@@ -24,7 +24,7 @@ h2{color:cyan;}h4{color:red;}p{color:cyan;}
 <table class="teamtable">
 <tr>
 <td>
-<img src="images/marcus.jpg" class="teampic img-thumbnail" /><br>
+<img src="images/marcus.png" class="teampic img-thumbnail" /><br>
 </td>
 <td>
 <h2>Marcus Amerlaan</h2>
@@ -33,7 +33,7 @@ h2{color:cyan;}h4{color:red;}p{color:cyan;}
 </td>
 <tr>
 <td>
-<img src="images/anuj.jpg" class="teampic img-thumbnail" /><br>
+<img src="images/anuj.png" class="teampic img-thumbnail" /><br>
 </td>
 <td>
 <h2>Anuj Kumar</h2>
@@ -226,12 +226,12 @@ h2{color:cyan;}h4{color:red;}p{color:cyan;}
 
 <script>
 $('.teampic').hover(function() {
-	$(this).css('min-width','250px'); 
-	$(this).css('width','250px'); 
+	$(this).css('min-width','300px'); 
+	$(this).css('width','300px'); 
 	$(this).parent().parent().children().children('.personDescription').fadeIn();
 }, function() {
-	$(this).css('min-width','150px');
-	$(this).css('width','150px');  
+	$(this).css('min-width','200px');
+	$(this).css('width','200px');  
 	$(this).parent().parent().children().children('.personDescription').fadeOut();
 });
 </script>
