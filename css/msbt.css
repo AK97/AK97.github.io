@@ -5,7 +5,7 @@ body,.body {font-family: 'Sumana', serif !important; line-height:normal !importa
 .active {color:red;}
 .gray {color:#6A6A6A;}
 .subtitle {color:black !important;font-weight:bold;}
-.a {cursor:pointer;}
+a {cursor:pointer;}
 .page1 {
 	background-image:url(../images/bgimg.png);
 	background-color:white;
