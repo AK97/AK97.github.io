@@ -5,7 +5,7 @@ body,.body {font-family: 'Sumana', serif !important; line-height:normal !importa
 .active {color:red;}
 .gray {color:#6A6A6A;}
 .subtitle {color:black !important;font-weight:bold;}
-
+.a {cursor:pointer;}
 .page1 {
 	background-image:url(../images/bgimg.png);
 	background-color:white;
@@ -46,8 +46,19 @@ body,.body {font-family: 'Sumana', serif !important; line-height:normal !importa
 	bottom:0px;
 	position:fixed;
 	cursor:pointer;
+	/*width:inherit;*/
+	background: -moz-linear-gradient(left, rgba(255,80,0,0) 0%, rgba(255,80,0,1) 2%, rgba(0,229,255,1) 98%, rgba(0,229,255,0) 100%);
+	background: -webkit-linear-gradient(left, rgba(255,80,0,0) 0%,rgba(255,80,0,1) 2%,rgba(0,229,255,1) 98%,rgba(0,229,255,0) 100%);
+	background: linear-gradient(to right, rgba(255,80,0,0) 0%,rgba(255,80,0,1) 2%,rgba(0,229,255,1) 98%,rgba(0,229,255,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff5000', endColorstr='#0000e5ff',GradientType=1 );
+	/*
+	background: #ff5000;
+	background: -moz-linear-gradient(left, #ff5000 0%, #00e5ff 100%);
+	background: -webkit-linear-gradient(left, #ff5000 0%,#00e5ff 100%);
+	background: linear-gradient(to right, #ff5000 0%,#00e5ff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5000', endColorstr='#00e5ff',GradientType=1 );
+*/
 }
-
 .person {
 	padding-top:40px;
 	width:100%;
@@ -58,7 +69,6 @@ body,.body {font-family: 'Sumana', serif !important; line-height:normal !importa
     background: -o-linear-gradient(white, black); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(white, black); /* For Firefox 3.6 to 15 */
     background: linear-gradient(white, black); /* Standard syntax */
-
 }
 
 .teampic {
@@ -74,7 +84,7 @@ body,.body {font-family: 'Sumana', serif !important; line-height:normal !importa
     font-family:'Glyphicons Halflings';
     content:"\e114";
     float: right;
-    color: grey;
+    color: red;
 }
 .panel-heading a.collapsed:after {
     content:"\e080";
