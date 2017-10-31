@@ -95,3 +95,7 @@ a {cursor:pointer;}
 	margin:auto;
 	display:block;
 }
+
+.personDescription {
+	display:none;
+}
