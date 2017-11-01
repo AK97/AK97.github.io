@@ -147,3 +147,11 @@ a {cursor:pointer;}
 	display: block;
 	margin: auto;
 }
+
+.construct-image{
+	float: left;
+	display: inline-block;
+	margin: auto;
+	align: left;
+	max-width: 55%;
+}
