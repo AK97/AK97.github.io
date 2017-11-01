@@ -154,4 +154,13 @@ a {cursor:pointer;}
 	margin: auto;
 	align: left;
 	max-width: 55%;
+
+.attributions-item {
+	/*border: 1px solid black;*/
+	list-style-type: disc;
+	font-size: 65%;
+}
+
+li span {
+	font-size: 14px;
 }
