@@ -44,7 +44,6 @@ a {cursor:pointer;}
 
 .bottom {
 	width:inherit;
-	display:table;
 	bottom:0px;
 	position:fixed;
 	cursor:pointer;
@@ -60,9 +59,6 @@ a {cursor:pointer;}
 	background: linear-gradient(to right, #ff5000 0%,#00e5ff 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5000', endColorstr='#00e5ff',GradientType=1 );
 */
-}
-.bottom > li {
-	margin:0;
 }
 
 .person {
