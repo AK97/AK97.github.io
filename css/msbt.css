@@ -115,3 +115,8 @@ a {cursor:pointer;}
 	height:50vh;
 	box-shadow: 0 0 20px rgba(0,0,0,0.4); 
 }
+
+.partBox {
+	border:solid;
+	border-color:red;
+}

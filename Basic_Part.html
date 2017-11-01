@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Team Michigan: Attributions</title>
+<link href="css/msbt.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Bungee+Hairline|Oxygen|Sumana" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/msbt.js"></script>
+</head>
+
+<body onLoad="loadBody();">
+<div class="container-float page2">
+<div class="container" id="pageContainer">
+
+<div class="col-md-10 content">
+<h2>Team Michigan's Part Contributions</h2>
+<div class="partBox">
+<strong>BBa_K2301000 T4 Holin:</strong>
+<br>
+(No crystal structure available, not sure what to do for picture)
+<br>
+T4 holin is a protein isolated from the T4 bacteriophage that lyses a bacterial cell from the inside. T4 holin opens pores in the cell membrane and wall, allowing lysozymes to degrade the cell. The bacteria dies as it is exposed to the extracellular environment. We improved part BBa_K112805 from UC Berkeley’s 2008 project by optimizing the codons for translation in E. coli using IDT’s codon optimization tool and by eliminating the illegal XbaI site that Imperial College London’s 2011 team found, making the part much easier for future iGEM teams to use. The changes we made were T358C, T556C, T563C, and T571C.
+</div>
+<br>
+<div class="partBox">
+<strong>BBa_K2301001 T4 Endolysin:</strong>
+<br>
+(Picture source: Structural Rigidity of a Large Cavity-containing Protein Revealed by High-pressure Crystallography. Collins, Quillin, et. al. (2007))
+<br>
+T4 endolysin is a lysozyme isolated from the T4 bacteriophage that lyses a bacterial cell from the inside. It does this by degrading the peptidoglycan layer of the cell wall, exposing the bacteria to the extracellular environment and killing it. The activity of this enzyme can be amplified when T4 holin is also present. We improved part BBa_K112806 from UC Berkeley’s 2008 project by optimizing the codons for translation in E. coli using IDT’s codon optimization tool, making it much easier for future iGEM teams to use. The changes we made were T508C and A511G.
+</div>
+<br>
+<div class="partBox">
+<strong>BBa_K2301002 T4 Antiholin:</strong> (no crystal structure available)
+<br>
+T4 antiholin is a protein isolated from the T4 bacteriophage that prevents cell lysis due to T4 holin by binding to T4 holin’s soluble domain. In nature T-even phages produce T4 antiholin to delay the destruction of their host cell. 
+</div>
+<br>
+<div class="partBox">
+<strong>BBa_K2301003 TlpA repressor system:</strong>
+<br>
+This part contains a temperature dependent promoter designated TlpA36, followed by a HindIII cut site, a sigma 70 constitutive promoter, a ribosome binding site, and, the TlpA36 protein. The HindIII cut site can be used to regulate any gene of interest put into the sequence. TlpA36 is a mutant temperature-dependent promoter/repressor system first outlined in Tunable thermal bioswitches for in vivo control of microbial therapeutics (Piraner et. al. 2016), and is a mutant version of a promoter found naturally in Salmonella typhimurium. It is a strong repressor, but will undergo a drastic deformation within a narrow range of temperatures, from 37C to 45C, allowing for the expression of downstream genes. The repressor protein itself is under the control of a sigma 70 constitutive promoter so that it is always expressed regardless of temperature. It is possible to edit our part be removing the sigma 70 promoter and placing the TlpA36 repressor protein under the control of the TlpA36 promoter to create a feedback loop. 
+</div>
+<br>
+<div class="partBox">
+<strong>Characterization:</strong>
+<br>
+For characterization of the TlpA36 repressor system alone, please see Tunable thermal bioswitches for in vivo control of microbial therapeutics (Piraner et. al. 2016). 
+We attempted to characterize the TlpA36 repressor system in conjunction with T4 holin, T4 antiholin, and T4 endolysin as outlined on our project page http://2017.igem.org/Team:Michigan. 
+</div>
+</div>
+
+<div class="col-md-2 h5">
+<nav class="navbar h5" id="sidebar">
+<ul class="nav nav-stacked">
+<li onClick="go('Parts')"><a class="subtitle">Parts</a></li>
+<li onClick="go('Basic_Part')"><a class="subtitle">Basic Parts</a></li>
+<li><a class="subtitle">Composite Parts</a></li>
+<li><a class="subtitle">Parts Collection</a></li>
+</ul>
+</nav>
+<!--<img src="images/person.png" class="person" />-->
+</div> <!--End col-->
+
+<ul class="nav nav-tabs bottom" id="nav">
+<li onClick="go('index')"><a class="subtitle">thermolyze</a></li>
+<li onClick="go('Description')"><a class="subtitle">project</a></li>
+<li onClick="go('Team')"><a class="subtitle">the team</a></li>
+<li onClick="go('Human_Practices')"><a class="subtitle">human practices</a></li>
+<li onClick="go('Parts')"><a class="subtitle">parts</a></li>
+<li onClick="go('Model')"><a class="subtitle">modelling</a></li>
+<li onClick="go('Collaborations')"><a class="subtitle">collaborations</a></li>
+<li onClick="go('Attributions')"><a class="subtitle">attributions</a></li>
+<!--<li onClick="window.open('http://2017.igem.org')"><a class="subtitle">igem</a></li>-->
+</ul>
+
+</div> <!--End container-->
+</div> <!--End container-float-->
+
+</body>
+</html>
