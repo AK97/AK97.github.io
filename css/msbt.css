@@ -126,3 +126,10 @@ a {cursor:pointer;}
 #sidebar {
 	overflow:scroll;
 }
+
+.part-image{
+	display: block;
+	margin: auto;
+	width: 200px;
+	min-width: 200px;
+}
