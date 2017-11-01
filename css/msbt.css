@@ -99,3 +99,19 @@ a {cursor:pointer;}
 .personDescription {
 	display:none;
 }
+
+#slideshow { 
+	display: block;
+    margin: auto; 
+    position: relative;
+	height:50vh;
+}
+#slideshow > div { 
+	margin:auto;
+	display:block;
+    position: absolute; 
+}
+#slideshow > div > img {
+	height:50vh;
+	box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
