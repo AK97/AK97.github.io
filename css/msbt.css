@@ -130,6 +130,14 @@ a {cursor:pointer;}
 .part-image{
 	display: block;
 	margin: auto;
-	width: 200px;
-	min-width: 200px;
+	max-width: 350px;
+}
+
+.part-image-dual{
+	max-width: 350px;
+}
+
+.part-image-box{
+	display: block;
+	margin: auto;
 }
