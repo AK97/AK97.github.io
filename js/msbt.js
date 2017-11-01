@@ -12,7 +12,7 @@ function loadBody() {
 	var h = $(window).height() - $('#nav').height(); 
 	h -= 20;
 	$('#pageContainer').css('height', h + 'px');
-	//$('#sidebar').css('height', h + 'px');
+	$('#sidebar').css('height', h + 'px');
 }
 $(window).resize(function() {
 	loadBody();
@@ -20,8 +20,8 @@ $(window).resize(function() {
 
 //FOR WHEN ALL LAB NOTEBOOK ENTRIES ARE COMPLETE, PARSED, & CONVERTED TO PDF//
 function loadEntries() {
-	var num_entries = 57
-	for(i = 1; i < num_entries; i++) {
+	var num_entries = 130
+	for(i = 1; i <= num_entries; i++) {
 		var elem = "<li onClick='ln(" + i + ")'><a class='subtitle'>Entry " + i + "</a></li>";
 		$('#sidebar').append(elem);
 	}
